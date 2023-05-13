@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067737649317",
+    "firebase_url": "https://belenvivasgarciacards-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "belenvivasgarciacards",
+    "storage_bucket": "belenvivasgarciacards.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067737649317:android:4ffa0fb83a94cb939f3d4c",
+        "android_client_info": {
+          "package_name": "es.uam.eps.dadm.cards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067737649317-djmefsrcm0trgsbfjjm4ng07pft2cnnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.uam.eps.dadm.cards",
+            "certificate_hash": "f937f0138a120e6bf31aadf563bf69e1eb804e1f"
+          }
+        },
+        {
+          "client_id": "1067737649317-vgmppn7f9k99on076v5u57ofrs9gsg6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe2Gj_HzpqcpXZUbS3tTTmAs0dNu7Ml4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067737649317-vgmppn7f9k99on076v5u57ofrs9gsg6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

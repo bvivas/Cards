@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10sp"
+            android:text="@string/tutorial_text"
+            android:textSize="27sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="55sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:background="@color/blue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_login">
+            </TextView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:src="@drawable/login"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/login_description">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_start">
+            </TextView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:src="@drawable/start"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/start_description">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_menu">
+            </TextView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:src="@drawable/menu"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/menu_description">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_decks">
+            </TextView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:src="@drawable/decks"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/decks_description">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_cards">
+            </TextView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:src="@drawable/cards"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/cards_description">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_cards_info">
+            </TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:src="@drawable/card_item"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/cards_info_description">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_edit_card">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/edit_card_1"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/edit_card_description">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/edit_card_2"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/edit_card_description">
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_edit_deck">
+            </TextView>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:src="@drawable/edit_deck"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/edit_deck_description">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_study">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/study_1"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/study_description">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/study_2"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/study_description">
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_statistics">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/stats"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/edit_card_description">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/stats2"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/edit_card_description">
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_firebase">
+            </TextView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:src="@drawable/firebase"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/edit_deck_description">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_preferences">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/preferences"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/preferences_description">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:src="@drawable/board"
+                    android:layout_marginTop="30sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@string/preferences_description">
+                </ImageView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginEnd="15sp"
+                android:singleLine="false"
+                android:text="@string/tutorial_logout">
+            </TextView>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:src="@drawable/logout"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/logout_description">
+            </ImageView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

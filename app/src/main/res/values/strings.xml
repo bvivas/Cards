@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Cards</string>
+    <string name="answer_button_text">Check answer</string>
+    <string name="question_text">Question</string>
+    <string name="answer_text">Answer</string>
+    <string name="help_button_text">Help</string>
+
+    <!-- Difficulty buttons -->
+    <string name="easy_button_title">Easy</string>
+    <string name="doubt_button_title">Doubt</string>
+    <string name="difficult_button_title">Hard</string>
+
+    <string name="info_text_view_message">Number of remaining cards</string>
+    <string name="due_cards_format">%d cards left</string>
+
+    <!-- Title -->
+    <string name="title_text">Cards</string>
+    <string name="subtitle_text">Tap to study</string>
+
+    <!-- Study button -->
+    <string name="study_button_title">REVIEW CARDS</string>
+
+    <!-- Display info -->
+    <string name="display_info_text">Info</string>
+    <string name="hide_info_text">Hide</string>
+
+    <!-- Edit button -->
+    <string name="accept_card_edit_button_title">Accept</string>
+    <string name="cancel_card_edit_button_title">Cancel</string>
+
+    <string name="question_text_hint">Write the question text</string>
+    <string name="answer_text_hint">Write the answer text</string>
+    <string name="accept_text">Accept</string>
+    <string name="cancel_text">Cancel</string>
+
+    <!-- Floating button -->
+    <string name="added_card">Card added</string>
+    <string name="add_card_description">Add a new card</string>
+    <string name="go_back_to_decks_description">Go back to decks</string>
+
+    <!-- Menu -->
+    <string name="decks_nav_menu_title">Decks</string>
+    <string name="study_nav_menu_title">Review cards</string>
+    <string name="statistics_nav_menu_title">Statistics</string>
+    <string name="about_nav_menu_title">About</string>
+    <string name="tutorial_nav_menu_title">Tutorial</string>
+
+    <!-- About -->
+    <string name="author_text">Belén Vivas García</string>
+    <string name="date_text">\u00a9 2022</string>
+    <string name="version_text">Version: v2.0</string>
+
+    <string name="go_to_cards_text">See cards</string>
+
+    <string name="no_more_cards">No more cards to review</string>
+
+    <!-- Statistics -->
+    <string name="deck_sizes_text">Decks size</string>
+    <string name="number_of_decks_size">Number of decks: </string>
+    <string name="number_of_cards_size">Number of cards: </string>
+    <string name="next_cards_text">Next cards</string>
+    <string name="num_not_due_cards_text">Future cards to review: </string>
+
+    <!-- Titles -->
+    <string name="cards_text">CARDS</string>
+    <string name="decks_text">DECKS</string>
+    <string name="statistics_text">STATISTICS</string>
+    <string name="tutorial_text">TUTORIAL</string>
+
+    <string name="delete_card_description">Delete card</string>
+    <string name="drawer_description">Drawer\'s header image</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_start">To start using the application, tap on the screen.</string>
+    <string name="tutorial_menu">Swipe right to access the menu where you can go to the different sections.</string>
+    <string name="tutorial_decks">Tap on \"Decks\" to see the different decks whose cards you can study.</string>
+    <string name="tutorial_cards">To see the cards of a deck, tap on \"See cards\".</string>
+    <string name="tutorial_cards_info">To see specific information about a card, tap on \"INFO\". There
+    you can see the easiness, repetitions, interval and the date of the next appearance.</string>
+    <string name="tutorial_edit_card">You can also delete the card tapping on the trash icon at the right top, and add a
+        new one tapping on the button at the right bottom. You can edit a card tapping on a card widget. It will
+        show the following screen, where you can set a new question and answer.</string>
+    <string name="tutorial_study">To review the cards, tap on \"Review cards\" in the menu. To see the answer,
+    tap on \"CHECK ANSWER\". Then, you can set the difficulty you think the card had: HARD, DOUBT or EASY.</string>
+    <string name="tutorial_statistics">Tapping on \"Statistics\" in the menu, you can see some statistics about the
+    revision process.
+    Tapping on "DECKS", you can see the size of each deck. Tapping on "NEXT CARDS", you can see the cards
+    scheduled for the next days, this is, the ones you have already studied.</string>
+    <string name="tutorial_edit_deck">You can edit a deck tapping on its widget, the same way as cards.</string>
+    <string name="tutorial_login">To log into the application, enter your email and password. If you do not
+    have an account yet, please sign up.</string>
+    <string name="tutorial_firebase">To upload your cards and decks to Firebase, tap on the fire button
+    on the decks screen.</string>
+    <string name="tutorial_preferences">You can set some preferences, like the maximum number of
+    cards you want to review or enable a board to write your answer.</string>
+    <string name="tutorial_logout">Finally, to log out the application, tap on the power button.</string>
+
+
+
+    <!-- Tutorial descriptions -->
+    <string name="start_description">Start</string>
+    <string name="menu_description">Menu</string>
+    <string name="decks_description">Decks</string>
+    <string name="cards_description">Cards</string>
+    <string name="cards_info_description">Cards info</string>
+    <string name="edit_card_description">Edit card</string>
+    <string name="study_description">Study</string>
+    <string name="statistics_description">Statistics</string>
+    <string name="edit_deck_description">Edit deck</string>
+    <string name="login_description">Log in</string>
+    <string name="firebase_description">Firebase upload</string>
+    <string name="preferences_description">Preferences</string>
+    <string name="logout_description">Log out</string>
+
+    <!-- Decks -->
+    <string name="deck_name_text">Deck name</string>
+    <string name="deck_name_hint">Type the name of the deck</string>
+    <string name="delete_deck_description">Delete deck</string>
+    <string name="decks_cards_firebase">Decks and cards uploaded to Firebase</string>
+    <string name="new_deck_description">New deck</string>
+    <string name="upload_firebase_description">Upload to Firebase</string>
+    <string name="new_card_description">New card</string>
+
+    <!-- Configuration menu -->
+    <string name="settings_menu_title">Settings</string>
+    <string name="logout_menu_title">Log out</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="decks_header">Decks</string>
+
+    <!-- Maximum number of cards Preferences -->
+    <string name="max_number_cards">Maximum number of cards</string>
+
+    <!-- Board Preferences -->
+    <string name="board_title">Show board</string>
+    <string name="board_summary_on">Board available</string>
+    <string name="board_summary_off">Board unavailable</string>
+
+    <!-- Login -->
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="log_in_text">Log in</string>
+    <string name="sign_up_text">Not registered yet? Sign up</string>
+    <string name="error_log_in">Error logging in. Check your credentials are correct.</string>
+    <string name="error_sign_up">Error creating account. Check your credentials are correct.</string>
+</resources>

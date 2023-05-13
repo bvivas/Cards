@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarjetas</string>
+    <string name="answer_button_text">Ver respuesta</string>
+    <string name="question_text">Pregunta</string>
+    <string name="answer_text">Respuesta</string>
+    <string name="help_button_text">Ayuda</string>
+
+    <!-- Difficulty buttons -->
+    <string name="easy_button_title">Fácil</string>
+    <string name="doubt_button_title">Dudo</string>
+    <string name="difficult_button_title">Difícil</string>
+
+    <string name="info_text_view_message">Número restante de tarjetas</string>
+    <string name="due_cards_format">%d tarjetas restantes</string>
+
+    <!-- Title -->
+    <string name="title_text">Tarjetas</string>
+    <string name="subtitle_text">Toca para estudiar</string>
+
+    <!-- Study button -->
+    <string name="study_button_title">REPASAR TARJETAS</string>
+
+    <!-- Display info -->
+    <string name="display_info_text">Info</string>
+    <string name="hide_info_text">Ocultar</string>
+
+    <!-- Edit button -->
+    <string name="accept_card_edit_button_title">Aceptar</string>
+    <string name="cancel_card_edit_button_title">Cancelar</string>
+
+    <string name="question_text_hint">Escribe la pregunta</string>
+    <string name="answer_text_hint">Escribe la respuesta</string>
+    <string name="accept_text">Aceptar</string>
+    <string name="cancel_text">Cancelar</string>
+
+    <!-- Floating button -->
+    <string name="added_card">Tarjeta añadida</string>
+    <string name="add_card_description">Añadir una nueva tarjeta</string>
+    <string name="go_back_to_decks_description">Volver a los mazos</string>
+
+    <!-- Menu -->
+    <string name="decks_nav_menu_title">Mazos</string>
+    <string name="study_nav_menu_title">Repasar tarjetas</string>
+    <string name="statistics_nav_menu_title">Estadísticas</string>
+    <string name="about_nav_menu_title">Acerca de</string>
+    <string name="tutorial_nav_menu_title">Tutorial</string>
+
+    <!-- About -->
+    <string name="author_text">Belén Vivas García</string>
+    <string name="date_text">\u00a9 2022</string>
+    <string name="version_text">Versión: v2.0</string>
+
+    <string name="go_to_cards_text">Ver tarjetas</string>
+
+    <string name="no_more_cards">No hay más tarjetas para repasar</string>
+
+    <!-- Statistics -->
+    <string name="deck_sizes_text">Tamaño de los mazos</string>
+    <string name="number_of_decks_size">Número de mazos: </string>
+    <string name="number_of_cards_size">Número de tarjetas: </string>
+    <string name="next_cards_text">Próximas tarjetas</string>
+    <string name="num_not_due_cards_text">Futuras tarjetas para estudiar: </string>
+
+    <!-- Titles -->
+    <string name="cards_text">TARJETAS</string>
+    <string name="decks_text">MAZOS</string>
+    <string name="statistics_text">ESTADÍSTICAS</string>
+    <string name="tutorial_text">TUTORIAL</string>
+
+    <string name="delete_card_description">Borrar tarjeta</string>
+    <string name="drawer_description">Imagen de cabecero</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_start">Para empezar a usar la aplicación, toca la pantalla.</string>
+    <string name="tutorial_menu">Desliza hacia la derecha para acceder al menú desde el que podrás acceder a las diferentes secciones.</string>
+    <string name="tutorial_decks">Selecciona \"Mazos\" para ver los mazos que contienen las tarjetas que puedes estudiar.</string>
+    <string name="tutorial_cards">Para ver las tarjetas de un mazo, toca en \"Ver tarjetas\".</string>
+    <string name="tutorial_cards_info">Para ver información específica sobre una tarjeta, toca en \"INFO\". Podrás
+    ver la facilidad, repeticiones e intervalo, además de la feha de la siguiente aparición.</string>
+    <string name="tutorial_edit_card">También podrás eliminar una tarjeta tocando en el icono de papelera ubicado
+        arriba a la derecha, y añadir una nueva tocando en el botón de abajo a la derecha. Puedes editar una tarjeta
+        tocando su widget. Mostrará la siguiente pantalla, donde podrás editar la pregunta y la respuesta.</string>
+    <string name="tutorial_study">Para repasar las tarjetas, toca en \"REVIEW CARDS\" en el menú. Para ver
+        la respuesta, toca en \"VER RESPUESTA\". Luego podrás poner la dificultad: DIFÍCIL, DUDA o FÁCIL</string>
+    <string name="tutorial_statistics">Tocando en \"Statistics\" en el menú, puedes ver algunas
+    estadísticas sobre el repaso de las tarjetas.
+    Seleccionando "MAZOS", puedes ver el tamaño de cada mazo. Seleccionando "TARJETAS SIGUIENTES", puedes ver las tarjetas
+    que se mostrarán los días siguientes, es decir, las que ya has estudiado.</string>
+    <string name="tutorial_edit_deck">Puedes editar un mazo tocando su widget, de igual forma que las tarjetas.</string>
+    <string name="tutorial_login">Para iniciar sesión en la aplicación, introduce tu email y contraseña. Si aún no tienes
+    una cuenta, por favor, regístrate.</string>
+    <string name="tutorial_firebase">Para subir tus tarjetas y mazos a Firebase, toca en el icono de la llama
+    en la pantalla de mazos.</string>
+    <string name="tutorial_preferences">Puedes elegir algunas preferencias, como el máximo número de
+    tarjetas que quieres estudiar o mostrar una pizarra para escribir tu respuesta.</string>
+    <string name="tutorial_logout">Finalmente, para cerrar sesión, toca en el botón de power.</string>
+
+    <!-- Tutorial descriptions -->
+    <string name="start_description">Start</string>
+    <string name="menu_description">Menú</string>
+    <string name="decks_description">Mazos</string>
+    <string name="cards_description">Tarjetas</string>
+    <string name="cards_info_description">Info tarjetas</string>
+    <string name="edit_card_description">Editar tarjeta</string>
+    <string name="study_description">Repasar</string>
+    <string name="statistics_description">Estadísticas</string>
+    <string name="edit_deck_description">Editar mazo</string>
+    <string name="login_description">Iniciar sesión</string>
+    <string name="firebase_description">Subir a Firebase</string>
+    <string name="preferences_description">Preferencias</string>
+    <string name="logout_description">Cerrar sesión</string>
+
+
+    <!-- Decks -->
+    <string name="deck_name_text">Nombre del mazo</string>
+    <string name="deck_name_hint">Escribe el nombre del mazo</string>
+    <string name="delete_deck_description">Borrar mazo</string>
+    <string name="decks_cards_firebase">Mazos y cartas subidos a Firebase</string>
+    <string name="new_deck_description">Nuevo mazo</string>
+    <string name="upload_firebase_description">Subir a Firebase</string>
+    <string name="new_card_description">Nueva tarjeta</string>
+
+
+    <!-- Configuration menu -->
+    <string name="settings_menu_title">Opciones</string>
+    <string name="logout_menu_title">Cerrar sesión</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="decks_header">Mazos</string>
+
+    <!-- Maximum number of cards Preferences -->
+    <string name="max_number_cards">Número máximo de tarjetas</string>
+
+    <!-- Board Preferences -->
+    <string name="board_title">Mostrar tablero</string>
+    <string name="board_summary_on">Pizarra disponible</string>
+    <string name="board_summary_off">Pizarra no disponible</string>
+
+    <!-- Login -->
+    <string name="username_text">Nombre de usuario</string>
+    <string name="password_text">Contraseña</string>
+    <string name="username_hint">Introduce tu usuario</string>
+    <string name="password_hint">Introduce tu contraseña</string>
+    <string name="log_in_text">Iniciar sesión</string>
+    <string name="sign_up_text">¿Aún no estás registrado? Hazlo aquí</string>
+    <string name="error_log_in">Error iniciando sesión. Comprueba que tus datos son correctos.</string>
+    <string name="error_sign_up">Error creando cuenta. Comprueba que tus datos son correctos.</string>
+</resources>
